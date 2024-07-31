@@ -1,43 +1,14 @@
-#clockContainer {
-	position: relative;
-	margin: auto;
-	height: 40vw;
-	width: 40vw;
-	background: url(https://tse2.mm.bing.net/th?id=OIP.Mvs7cG4-VyyZX_xo5_FPDQHaHa&pid=Api&P=0&h=180) no-repeat;
-	background-size: 100%;
-}
-
-#hour,
-#minute,
-#second {
-	position: absolute;
-	background: black;
-	border-radius: 10px;
-	transform-origin: bottom;
-}
-
-#hour {
-	width: 1.8%;
-	height: 25%;
-	top: 25%;
-	left: 48.85%;
-	opacity: 0.8;
-}
-
-#minute {
-	width: 1.6%;
-	height: 30%;
-    background: green;
-	top: 19%;
-	left: 48.9%;
-	opacity: 0.8;
-}
-
-#second {
-	width: 1%;
-	height: 40%;
-	top: 9%;
-    background: red;
-	left: 49.25%;
-	opacity: 0.8;
-}
+ body{
+    background: black;
+ }
+ 
+ 
+ 
+ #digital{
+    font-size: 175px;
+    text-align: center;
+    margin: 200px;
+    width:auto;
+    border-radius: 20px;
+    color: deepskyblue;
+ }
