@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Calculator</title>
+    <link rel="stylesheet" href="grade.css">
+</head>
+
+<body>
+    <div class="main">
+        <form>
+            <h1>Grade Calculator</h1>
+            <div class="subject">English <span class="gap" id="e"></span>
+                <input type="text" placeholder="English" id="english" title="Enter Your English Number" min="0" required>
+            </div><br><br>
+            <div class="subject">Mathematics <span class="gap" id="m"></span>
+                <input type="text" title="Enter Your Mathematics Number" placeholder="Mathematics" id="mathematics" min="0" required>
+            </div><br><br>
+            <div class="subject">Physics <span class="gap" id="p"></span>
+                <input type="text" placeholder="Physics" id="physics" title="Enter Your Physics Number" min="0" required>
+            </div><br><br>
+            <div class="subject">Chemistry <span class="gap" id="c"></span>
+                <input type="text" placeholder="Chemistry" id="chemistry" title="Enter Your Chemistry Number" min="0" required>
+            </div>
+            <br><br>
+            <button type="button" id="submit" onclick="getvalue()">Submit</button>
+
+        </form>
+        <div class="result">
+            <h1>Markes Details</h1>
+
+            <p class="s">
+                You
+                <span id="answer"></p>
+            </span>
+                <p class="s">
+                    your Grade is
+                    <span id="grade"></span>
+                </p>
+                <p class="s">
+                    and marks obtained is
+                    <span id="marks"></span>
+                </p>
+                <p class="s">
+                    out of <span style="color: blue;">400</span>
+                </p>
+
+        </div>
+    </div>
+    <script src="grade.js"></script>
+</body>
+
+</html>
