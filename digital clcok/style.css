@@ -1,0 +1,14 @@
+ body{
+    background: black;
+ }
+ 
+ 
+ 
+ #digital{
+    font-size: 175px;
+    text-align: center;
+    margin: 200px;
+    width:auto;
+    border-radius: 20px;
+    color: deepskyblue;
+ }
